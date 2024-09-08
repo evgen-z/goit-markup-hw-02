@@ -14,11 +14,12 @@ h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 36;
+  font-size: 36px;
 }
 
 h3 {
@@ -37,30 +38,15 @@ a {
 
 a:hover,
 a:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
-button {
-  cursor: pointer;
-}
 
 /* ==== /COMMON STYLES ==== */
 
 /* ==== HEADER STYLES ==== */
 
-.page-header {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
 
-.page-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
-}
 .page-h-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -68,10 +54,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .page-h-logo-accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .page-h-logo:hover,
@@ -79,25 +66,13 @@ button {
   color: inherit;
 }
 
-.menu {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-}
-
-.menu-item {
-  display: inline-block;
-  text-align: center;
-}
 .menu-link {
   font-weight: 500;
   color: #2e2f42;
 }
 
-.page-contacts li {
-  display: inline;
+.page-contacts {
+    font-style: normal;
 }
 
 /* ==== /HEADER STYLES ==== */
@@ -108,7 +83,38 @@ button {
   color: #ffffff;
 }
 
+.hero-header {
+    text-align: center;
+    
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
 /* ==== /HERO STYLES ==== */
+
+/* ==== STUDIO STYLES ==== */
+
+/* ==== /STUDIO STYLES ==== */
+
+/* ==== TEAM STYLES ==== */
+
+/* ==== /TEAM STYLES ==== */
+
+/* ==== PORTFOLIO STYLES ==== */
+
+/* ==== /PORTFOLIO STYLES ==== */
 
 /* ==== FOOTER STYLES ==== */
 
