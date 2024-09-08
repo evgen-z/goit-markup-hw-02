@@ -139,4 +139,23 @@ a:focus {
   color: #f4f4fd;
 }
 
+.page-f-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+  
+  .page-f-logo-accent {
+    color: #f4f4fd;
+  }
+  
+  .page-f-logo:hover,
+  .page-f-logo:focus {
+    color: inherit;
+  }
+
 /* ==== /FOOTER STYLES ==== */
