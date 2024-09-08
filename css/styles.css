@@ -20,11 +20,18 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 ul {
@@ -41,11 +48,9 @@ a:focus {
   color: #404bbf;
 }
 
-
 /* ==== /COMMON STYLES ==== */
 
 /* ==== HEADER STYLES ==== */
-
 
 .page-h-logo {
   font-family: "Raleway", sans-serif;
@@ -72,7 +77,7 @@ a:focus {
 }
 
 .page-contacts {
-    font-style: normal;
+  font-style: normal;
 }
 
 /* ==== /HEADER STYLES ==== */
@@ -84,22 +89,21 @@ a:focus {
 }
 
 .hero-header {
-    text-align: center;
-    
+  text-align: center;
 }
 
 .hero-button {
-    background-color: #4D5AE5;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #404BBF;
-    cursor: pointer;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* ==== /HERO STYLES ==== */
@@ -109,6 +113,18 @@ a:focus {
 /* ==== /STUDIO STYLES ==== */
 
 /* ==== TEAM STYLES ==== */
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.team-header {
+    text-align: center;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
 
 /* ==== /TEAM STYLES ==== */
 
